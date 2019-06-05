@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Oswald');
+
+#logo {
+    width: 4em;
+    height: 2em;
+    float: left;
+}
+
+#logo a, #logo img {
+    width: inherit;
+}
+
+body {
+    background: linear-gradient(to top, #a81a42, #77132f);
+    background-size: cover;
+    text-align: justify;
+}
+
+p, h2, h3, li, td {
+    color: white;
+    text-shadow: black 3px 3px 3px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bitter", serif;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: .9em;
+}
+
+h3 {
+    font-size: 2.1em;
+}
+
+a {
+    color: white;
+    text-shadow: black 1px 1px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-shadow: black 2px 1px;
+}
+
+[title="Cat"], [src="images/ugur.jpg"] {
+    max-width: 40%;
+    height: auto;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 10%;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 2em;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1em;
+}
+
+#navbar {
+    list-style: none;
+    font-size: 1.5em;
+    
+}
+
+li {
+    margin: 5px;
+    display: inline;
+    font-weight: bold;
+}
+
+ul {
+    width: 20%;
+    margin: auto;
+}
+
+.mycat, .me {
+    margin: 2em;
+    margin-bottom: 0;
+}
+
+.mycat {
+    display: inline-block;
+}
+
+#TED {
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#myclass table, #myclass td {
+    border: 3px solid white;
+}
+
+#myclass {
+    margin-bottom: 3em;
+}
+
+#listofcats li {
+    list-style: decimal;
+    display: list-item;
+}
+
+.me, #listofcats {
+    text-align: center;
+}
+
+#passion {
+    border: 3px dashed black;
+    max-width: 50%;
+    height: auto;
+}
+
+#abc {
+    border-collapse: collapse;
+}
